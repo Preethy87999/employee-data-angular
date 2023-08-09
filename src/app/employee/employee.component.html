@@ -1,0 +1,66 @@
+<p>employee works!</p>
+
+<div class="card">
+    <form [formGroup]="userForm">
+        <div class ="mt-5">
+            <div class="form-row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Name</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" formControlName="name" class="form-control" placeholder="name">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>EmpId</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" formControlName="empid" class="form-control" placeholder="empid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Address</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" formControlName="address" class="form-control" placeholder="address">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>DOJ</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" formControlName="doj" class="form-control" placeholder="doj">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Salary</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" formControlName="salary" class="form-control" placeholder="salary">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row mt-4">
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-primary">ADD</button>&nbsp;
+                        <button type="button" class="btn btn-primary">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+a{
+    color: Black;
+    text-decoration: none;
+    
+}
+button{
+    width: 100%;
+    border: 3px  ;
+    display:block;
+    padding:12px;
+    text-decoration:none;
+    background-color:#ff7f7f;
+    text-align: right;
+    
+}
